@@ -20,6 +20,8 @@ The configuration [manual](htps://git-scm.com/book/tr/v2/Customizing-Git-Git-Con
 ### Configuration of credential cache
 [git-credential-cache](https://git-scm.com/docs/git-credential-cache) - Helper to temporarily store passwords in memory
 
+    git help credentials
+
     git config credential-helper cache 
     .. commit and push, and at some point exit the daemon
     git config credential-helper exit
