@@ -11,6 +11,8 @@ The configuration [manual](htps://git-scm.com/book/tr/v2/Customizing-Git-Git-Con
  - global, for a specific user and all of the users repositories
  - local, for a single repository
 
+Configuration command examples:
+
     git config --global --list
     git config --global --edit
     git config --global core.editor vim
