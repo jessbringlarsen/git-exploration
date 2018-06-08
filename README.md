@@ -27,3 +27,8 @@ Configuration command examples:
     git config credential-helper cache 
     .. commit and push, and at some point exit the daemon
     git config credential-helper exit
+
+### SSL configuration
+If your git server is using a self signed certificate then you might experience issues with pushing to the repo. To disable ssl certificate verfication _for a specific_ repository not global or system wide, issue this command:
+
+    git config --local http.sslVerify false
