@@ -32,3 +32,12 @@ Configuration command examples:
 If your git server is using a self signed certificate then you might experience issues with pushing to the repo. To disable ssl certificate verfication _for a specific_ repository not global or system wide, issue this command:
 
     git config --local http.sslVerify false
+
+## Working with branches
+To checkout a remote branch fetch the existing branches and view the available branches:
+
+    git fetch
+    git branch -v -a
+    
+After that just checkout the branch out the branch to work on:
+    git checkout <branch>
