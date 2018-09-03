@@ -40,4 +40,5 @@ To checkout a remote branch fetch the existing branches and view the available b
     git branch -v -a
     
 After that just checkout the branch out the branch to work on:
+
     git checkout <branch>
