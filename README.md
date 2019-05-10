@@ -42,3 +42,10 @@ To checkout a remote branch fetch the existing branches and view the available b
 After that just checkout the branch out the branch to work on:
 
     git checkout <branch>
+    
+# Changing remote location
+To change the remote location of the repository go to the repository and issue these commands:
+
+    git remote set-url origin <url>
+    git remote -v
+    git push -u origin master
